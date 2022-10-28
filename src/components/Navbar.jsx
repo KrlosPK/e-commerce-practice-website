@@ -40,7 +40,7 @@ const Navbar = () => {
 						target='_blank'
 						className='about-me__link'
 					>
-						Watch out my LinkedIn!
+						Visit my LinkedIn
 					</a>
 				</div>
 			</li>
@@ -49,7 +49,7 @@ const Navbar = () => {
 					<img
 						src='../static/cart-icon.png'
 						alt='cart-icon'
-                        className='open-navbar__img'
+						className='open-navbar__img'
 						loading='lazy'
 					/>
 				</button>

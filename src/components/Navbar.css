@@ -62,7 +62,7 @@
 	background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
-	background-size: 100% 100%;
+	background-size: 63% 63%;
 	color: transparent;
 	transition: background-size 300ms ease-in-out;
 	-moz-transition: background-size 300ms ease-in-out;
@@ -71,7 +71,7 @@
 	-webkit-transition: background-size 300ms ease-in-out;
 }
 .about-me__link:hover {
-	background-size: 200% 200%;
+	background-size: 120% 120%;
 }
 
 @media (max-width: 768px) {

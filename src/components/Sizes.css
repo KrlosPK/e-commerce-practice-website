@@ -1,0 +1,38 @@
+.sizes {
+	align-items: center;
+	background-color: #fff;
+	color: #000;
+	display: inline-flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem;
+	width: 20%;
+    height: 86.1vh;
+}
+.sizes__title {
+	font-size: 26px;
+	padding-left: 0.5rem;
+	width: 100%;
+}
+.elements {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	font-size: 20px;
+	gap: 1.5rem;
+}
+.elements__size {
+    align-items: center;
+    font-weight: 500;
+	border-radius: 50%;
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	width: 40px;
+    cursor: pointer;
+    border: none;
+}
+.elements__size:hover {
+    outline: 2px solid #444;
+}
