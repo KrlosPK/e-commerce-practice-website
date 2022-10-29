@@ -5,7 +5,7 @@ import data from '../products.json';
 const CardContainer = () => {
 	let cardLength = 0;
 	return (
-		<div className='hola'>
+		<div className='background'>
 			<div className='card-container__title'>
 				{cardLength} Producto(s) encontrado(s)
 			</div>

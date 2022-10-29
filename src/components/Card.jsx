@@ -18,7 +18,7 @@ const Card = ({ id, src, src2, title, price, decimalPrice, discount }) => {
 
 	return (
 		<div className='product'>
-			<FreeShipping></FreeShipping>
+			{random > 5 ? <FreeShipping></FreeShipping> : ''}
 			<img
 				className='product__img'
 				onMouseEnter={handleFrontImage}
