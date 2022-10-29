@@ -1,0 +1,20 @@
+.button {
+	background-color: rgb(27, 26, 32);
+	bottom: 0;
+	color: #fff;
+	cursor: pointer;
+	filter: brightness(69%);
+	font-family: inherit;
+	padding: 1rem;
+	position: absolute;
+	text-transform: capitalize;
+	transition: filter 300ms ease-in-out;
+	width: 100%;
+	border: none;
+}
+.button:hover {
+	filter: brightness(100%);
+}
+.button:active {
+	filter: brightness(80%);
+}

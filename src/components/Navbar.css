@@ -3,7 +3,8 @@
 	background-color: #000;
 	display: flex;
 	justify-content: space-between;
-	padding-block: 1rem;
+	margin-bottom: 0.5rem;
+	padding-block: 0.5rem;
 }
 .navbar__logo {
 	aspect-ratio: 1/1;
@@ -44,7 +45,7 @@
 		width: 35%;
 	}
 	.navbar {
-		padding-block: 0.5rem;
+		padding-block: 0.25rem;
 	}
 }
 .about-me__img {

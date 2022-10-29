@@ -3,7 +3,7 @@ import './Sizes.css';
 const Sizes = () => {
 	return (
 		<div className='sizes'>
-			<strong className='sizes__title'>Sizes:</strong>
+			<div className='sizes__title'>Sizes:</div>
 			<div className='elements'>
 				<button className='elements__size'>XS</button>
 				<button className='elements__size'>S</button>
