@@ -36,3 +36,20 @@
 .elements__size:hover {
 	outline: 3px solid #000;
 }
+@media (max-width: 768px) {
+	.sizes {
+		border-radius: 0;
+		width: 100%;
+	}
+	.elements {
+		gap: 1rem;
+	}
+	.sizes__title {
+		font-size: 1rem;
+	}
+	.elements__size {
+		font-size: 0.7rem;
+		width: 25px;
+		height: 25px;
+	}
+}

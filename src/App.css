@@ -1,6 +1,11 @@
 .flexbox {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 200px 1fr;
-    height: 100%;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 200px 1fr;
+	height: 100%;
+}
+@media (max-width: 768px) {
+	.flexbox {
+		display: block;
+	}
 }
