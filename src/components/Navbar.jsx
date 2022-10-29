@@ -4,7 +4,11 @@ const Navbar = () => {
 	return (
 		<ul className='navbar'>
 			<li className='navbar__logo'>
-				<a href='../index.js'>
+				<a
+					rel='noopener noreferrer'
+					href='https://github.com/KrlosPK/e-commerce-practice-website'
+					target={'_blank'}
+				>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						className='icon icon-tabler icon-tabler-brand-github'
