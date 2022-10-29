@@ -1,7 +1,7 @@
 import './Btn.css';
 
-const Btn = (props) => {
-	return <button className='button'>Holaaa</button>;
+const Btn = ({ buttonText }) => {
+	return <button className='button'>{buttonText}</button>;
 };
 
 export { Btn };

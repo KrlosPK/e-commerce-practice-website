@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"src": "static/products/876661122392077-1-product.webp",
+		"src2": "static/products/876661122392077-2-product.webp",
+		"title": "Cropped Stay Groovy off white",
+		"price": 10.9,
+		"discount": 1.21
+	},
+	{
+		"id": 2,
+		"src": "static/products/876661122392077-1-product.webp",
+		"src2": "static/products/876661122392077-2-product.webp",
+		"title": "Cropped Stay Groovy ed Stay Groovy off white",
+		"price": 13.25,
+		"discount": 4.42
+	},
+	{
+		"id": 3,
+		"src": "static/products/876661122392077-1-product.webp",
+		"src2": "static/products/876661122392077-2-product.webp",
+		"title": "Cropped Stay Groovy off white",
+		"price": 22.15,
+		"discount": 2.16
+	}
+]

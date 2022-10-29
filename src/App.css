@@ -1,4 +1,6 @@
 .flexbox {
-    display: flex;
-    gap: 10px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 200px 1fr;
+    height: 100%;
 }

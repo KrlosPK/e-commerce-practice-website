@@ -1,6 +1,6 @@
 .sizes {
+	background-color: #fff;
 	border-end-end-radius: 20px;
-	color: #000;
 	padding: 1rem;
 	width: 200px;
 }
@@ -21,8 +21,10 @@
 }
 .elements__size {
 	align-items: center;
+	background-color: #fff;
 	border: none;
 	border-radius: 50%;
+	color: #000;
 	cursor: pointer;
 	display: flex;
 	font-size: 1rem;
@@ -32,5 +34,5 @@
 	width: 40px;
 }
 .elements__size:hover {
-	outline: 2px solid #444;
+	outline: 3px solid #000;
 }

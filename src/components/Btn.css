@@ -1,20 +1,15 @@
 .button {
 	background-color: rgb(27, 26, 32);
-	bottom: 0;
+	border: none;
 	color: #fff;
 	cursor: pointer;
 	filter: brightness(69%);
 	font-family: inherit;
-	padding: 1rem;
-	position: absolute;
+	font-size: 20px;
+	margin-top: 0.5rem;
+	padding: 0.7rem;
 	text-transform: capitalize;
-	transition: filter 300ms ease-in-out;
+	transition: filter 200ms ease, background-color 200ms ease, color 200ms ease;
 	width: 100%;
-	border: none;
-}
-.button:hover {
-	filter: brightness(100%);
-}
-.button:active {
-	filter: brightness(80%);
+	user-select: none;
 }

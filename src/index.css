@@ -1,3 +1,6 @@
+:root {
+	--yellow: rgb(234, 191, 0);
+}
 * {
 	box-sizing: border-box;
 	font-family: system-ui;
@@ -6,7 +9,6 @@
 }
 body {
 	background-color: #333;
-	color: #fff;
 }
 ul {
 	list-style: none;

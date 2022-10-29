@@ -3,7 +3,6 @@
 	background-color: #000;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 0.5rem;
 	padding-block: 0.5rem;
 }
 .navbar__logo {
@@ -39,6 +38,7 @@
 	display: flex;
 	gap: 1.2rem;
 	width: 50%;
+	color: white;
 }
 @media (max-width: 940px) {
 	.about-me {

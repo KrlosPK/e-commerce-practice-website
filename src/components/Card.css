@@ -1,5 +1,36 @@
 .product {
-	background:#fff;
+	background: #000;
+	color: #fff;
+	display: grid;
+	height: 550px;
+	max-width: 250px;
+	overflow: hidden;
 	position: relative;
-	width: 150px;
+	text-align: center;
+}
+.product__img {
+	width: 100%;
+}
+.product__title {
+	margin-bottom: 0.8rem;
+	position: relative;
+}
+.product__title::after {
+	background-color: var(--yellow);
+	bottom: 0;
+	content: '';
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	translate: -50%;
+	width: 1.5rem;
+}
+.product__price {
+	font-size: 20px;
+	font-weight: bold;
+}
+.product:hover button {
+	background-color: var(--yellow);
+	color: #000;
+	filter: brightness(100%);
 }

@@ -1,18 +1,17 @@
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Sizes } from './components/Sizes';
-import { Card } from './components/Card';
-// import { CardButton } from './components/CardButton';
+import { CardContainer } from './components/CardContainer';
 
 const App = () => {
 	return (
-		<div>
+		<>
 			<Navbar />
 			<div className='flexbox'>
 				<Sizes />
-				<Card />
+				<CardContainer />
 			</div>
-		</div>
+		</>
 	);
 };
 

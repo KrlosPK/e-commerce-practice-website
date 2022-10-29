@@ -47,7 +47,7 @@ const Navbar = () => {
 			<li>
 				<button className='open-navbar'>
 					<img
-						src='../static/cart-icon.png'
+						src='/static/cart-icon.png'
 						alt='cart-icon'
 						className='open-navbar__img'
 						loading='lazy'
