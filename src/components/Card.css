@@ -3,6 +3,7 @@
 	color: #fff;
 	display: grid;
 	height: 550px;
+	margin-bottom: 2rem;
 	max-width: 250px;
 	overflow: hidden;
 	position: relative;
@@ -26,11 +27,18 @@
 	width: 1.5rem;
 }
 .product__price {
-	font-size: 20px;
+	font-size: 14px;
+}
+.product__price span {
+	font-size: 24px;
 	font-weight: bold;
 }
 .product:hover button {
 	background-color: var(--yellow);
-	color: #000;
-	filter: brightness(100%);
+}
+.product__discount {
+	color: var(--gray);
+}
+.product__discount span {
+	font-weight: bold;
 }

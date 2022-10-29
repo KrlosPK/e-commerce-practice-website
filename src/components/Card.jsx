@@ -2,18 +2,38 @@ import './Card.css';
 import { Btn } from './Btn';
 import { FreeShipping } from './FreeShipping';
 
-const Card = ({ src, title, price, discount }) => {
+const Card = ({ id, src, src2, title, price, decimalPrice, discount }) => {
 	let random = Math.floor(Math.random() * 10);
+	let img = 1;
+
+	const handleFrontImage = (e) => {
+		img = 2;
+		e.target.src = src + img + src2;
+	};
+
+	const handleBackImage = (e) => {
+		img = 1;
+		e.target.src = src + img + src2;
+	};
+
 	return (
 		<div className='product'>
 			<FreeShipping></FreeShipping>
-			<img className='product__img' src={src} alt='imagen' />
+			<img
+				className='product__img'
+				onMouseEnter={handleFrontImage}
+				onMouseLeave={handleBackImage}
+				src={src + img + src2}
+				alt={'produto ' + id}
+			/>
 			<div className='product__title'>{title}</div>
-			<div className='product__price'>${price}</div>
-			<div className='product__discount'>
-				or {random} x${discount}
+			<div className='product__price'>
+				$ <span>{price}</span>.{decimalPrice}
 			</div>
-			<Btn buttonText="Añadir al carrito"></Btn>
+			<div className='product__discount'>
+				or {random} x $<span>{discount}</span>
+			</div>
+			<Btn buttonText='Añadir al carrito'></Btn>
 		</div>
 	);
 };

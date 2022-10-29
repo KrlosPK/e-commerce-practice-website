@@ -14,8 +14,10 @@ const CardContainer = () => {
 					<Card
 						id={product.id}
 						src={product.src}
+						src2={product.src2}
 						title={product.title}
 						price={product.price}
+						decimalPrice={product.decimalPrice}
 						discount={product.discount}
 					/>
 				))}

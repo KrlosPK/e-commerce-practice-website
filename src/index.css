@@ -1,5 +1,6 @@
 :root {
 	--yellow: rgb(234, 191, 0);
+	--gray: rgb(156, 155, 155);
 }
 * {
 	box-sizing: border-box;

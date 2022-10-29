@@ -1,26 +1,56 @@
 [
 	{
 		"id": 1,
-		"src": "static/products/876661122392077-1-product.webp",
-		"src2": "static/products/876661122392077-2-product.webp",
+		"src": "static/products/876661122392077-",
+		"src2": "-product.webp",
 		"title": "Cropped Stay Groovy off white",
-		"price": 10.9,
+		"price": 10,
+		"decimalPrice": 9,
 		"discount": 1.21
 	},
 	{
 		"id": 2,
-		"src": "static/products/876661122392077-1-product.webp",
-		"src2": "static/products/876661122392077-2-product.webp",
-		"title": "Cropped Stay Groovy ed Stay Groovy off white",
-		"price": 13.25,
+		"src": "static/products/5619496040738316-",
+		"src2": "-product.webp",
+		"title": "Basic Cactus White T-shirt",
+		"price": 24,
+		"decimalPrice": 15,
 		"discount": 4.42
 	},
 	{
 		"id": 3,
-		"src": "static/products/876661122392077-1-product.webp",
-		"src2": "static/products/876661122392077-2-product.webp",
-		"title": "Cropped Stay Groovy off white",
-		"price": 22.15,
+		"src": "static/products/6090484789343891-",
+		"src2": "-product.webp",
+		"title": "Skater Black Sweatshirt",
+		"price": 15,
+		"decimalPrice": 89,
 		"discount": 2.16
+	},
+	{
+		"id": 4,
+		"src": "static/products/8552515751438644-",
+		"src2": "-product.webp",
+		"title": "Black Tule Oversized",
+		"price": 25,
+		"decimalPrice": 10,
+		"discount": 4.16
+	},
+	{
+		"id": 5,
+		"src": "static/products/9197907543445676-",
+		"src2": "-product.webp",
+		"title": "Black Batman T-shirt",
+		"price": 40,
+		"decimalPrice": 99,
+		"discount": 10.11
+	},
+	{
+		"id": 6,
+		"src": "static/products/18532669286405344-",
+		"src2": "-product.webp",
+		"title": "Blue T-Shirt",
+		"price": 8,
+		"decimalPrice": 0,
+		"discount": 1
 	}
 ]
