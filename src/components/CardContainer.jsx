@@ -12,7 +12,7 @@ const CardContainer = () => {
 			<div className='card-container'>
 				{data.map((product) => (
 					<Card
-						id={product.id}
+						key={product.id}
 						src={product.src}
 						src2={product.src2}
 						title={product.title}
